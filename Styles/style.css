@@ -1,0 +1,240 @@
+/* body styles */
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.text-primary{
+    color: #E55473;
+}
+
+/* All Header Styles */
+
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.shop{
+    padding: 25px 25px 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-content{
+    max-width: 500px;
+}
+
+.shop-title{
+    font-size: 70px;
+    color: #272727;
+    margin-bottom: 30px;
+} 
+.shop-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin-top: 5px;
+}
+.shop .banner-pic{
+    width: 635px;
+}
+
+/* Main Style */
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.featured{
+    margin: 100px 240px;
+}
+
+.featured-container{
+    display: flex;
+    gap: 25px;
+}
+
+.featured-flower{
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower1{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.flower2{
+    background:rgba(5, 151, 160, 0.15);
+
+}
+.flower3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-title{
+    color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration-line: underline;
+}
+
+/* discount section */
+
+.discount{
+    padding: 50px 240px 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+
+.discount-flower-pic {
+    width: 350px;
+}
+
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* social media  */
+
+.social-media{
+    margin: 50px 200px;
+    }
+
+.social-media-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-media-contant{
+
+    margin: 5px 50px 5px ;
+    padding-left: 20px;
+}
+
+.social-media-contant img{
+    width: 342px;
+height: 396px;
+}
+
+/* deal-content  */
+.deal-content{
+    border-radius: 8px;
+    height: 300px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 50px 200px;
+ }
+
+ .deal-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+ }
+
+ .deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .deal-form{
+    width: 400px;
+    height: 60px;
+    margin-left: 250px;
+    align-items: center;
+ }
+
+
+/* bonus style */
+    .about-order{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contact{
+        text-align: center;
+        height: 350px;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px gray;
+        background-color: #FFDAB9;
+    }
+    .order-info{
+        width: 80%;
+        padding-left: 5%;
+        margin:20px;
+    }
+    .order-info img{
+        width: 500px;
+        height: 350px;
+        border-radius: 20px;
+    }
+     .order-button{
+        width: 50px;
+        color: white;
+        background-color: #F75D59;
+        padding: 10px;
+        border-radius: 5px; 
+    }
+
+    /* footer style */
+    .footer{
+        text-align: center;
+        color: white;
+        background-color: black;
+        height: 300px;
+    }
+
+    .footer-description{
+        color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+     }
+     .footer-copyright{
+        color: #ffffff66;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+     }
+
+     .footer-title{
+        font-size: 48px;
+        font-weight: 800;
+        align-items: center;
+        margin-top: 150px;
+     }
